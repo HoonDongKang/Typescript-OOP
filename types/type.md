@@ -21,3 +21,13 @@ void 는 하나의 단위 / never은 모순
 반환하지 않는 함수, 할당 가능 = void 반환
 영원히 리턴하지 않는 함수 = never ( 에러처리 또는 while(true) )
 
+## Function type
+
+1. Optional parameter
+- 선택적으로 매개변수를 인자로 받고 싶을 때, ? optional parameter로 지정 가능
+
+2. Default parameter
+- 매개변수의 기본값 설정 가능
+
+3. Rest parameter
+- 매개변수의 수가 정해져있지 않을때, ...parameter로 배열 형태의 값 받을 수 있음.
