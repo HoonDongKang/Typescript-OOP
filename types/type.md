@@ -31,3 +31,9 @@ void 는 하나의 단위 / never은 모순
 
 3. Rest parameter
 - 매개변수의 수가 정해져있지 않을때, ...parameter로 배열 형태의 값 받을 수 있음.
+
+## Array VS Tuple
+
+- Array : 같은 타입의 배열 형태
+- Tuple : 다른 타입의 배열 형태 -> 지양 ( interface, type alias, tuple 로 대체 가능)
+ => react useState 가 tuple 형태 => 사용자가 배열의 형태를 인지하면 활용도가 높아지겠지만 남용하면 안된다.
