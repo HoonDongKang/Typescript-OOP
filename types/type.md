@@ -10,3 +10,14 @@
 
 => 반대로 타입을 지정하면 변수의 값이나, 함수의 입출력값을 명확히 추론하고 안정적으로 프로그래밍을 동작시킬 수있다.
 
+## Types
+
+number / string / boolean / void (리턴값 x)
+
+undefined / null / unknown (js 변환 시) / any / never(리턴하지 않을 때) / object(원시값 제외 값) -> 지양
+
+- void VS never
+void 는 하나의 단위 / never은 모순
+반환하지 않는 함수, 할당 가능 = void 반환
+영원히 리턴하지 않는 함수 = never ( 에러처리 또는 while(true) )
+
