@@ -43,3 +43,9 @@ void 는 하나의 단위 / never은 모순
 새로운 타입을 지정하여 사용할 수 있다.
 
 String Literal Type => 값 하나만을 지정한 타입도 생성 가능
+
+## Union Type
+타입을 지정할 때, OR 형태로 유니온 값을 지정할 수 있다. 
+- 다른 타입에서 같은 속성을 설정함으로써 discrimated union 으로 타입을 활용할 수 있다.
+SuccessState = { result: "true" }
+FailState = { result: "false" }
