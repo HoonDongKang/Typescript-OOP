@@ -45,7 +45,29 @@ void 는 하나의 단위 / never은 모순
 String Literal Type => 값 하나만을 지정한 타입도 생성 가능
 
 ## Union Type
-타입을 지정할 때, OR 형태로 유니온 값을 지정할 수 있다. 
+타입을 지정할 때, OR 형태로 유니온 값을 지정할 수 있다. => |
 - 다른 타입에서 같은 속성을 설정함으로써 discrimated union 으로 타입을 활용할 수 있다.
 SuccessState = { result: "true" }
 FailState = { result: "false" }
+
+## Intersection Type
+타입 지정할 때, AND 형태로 값 지정 가능 => &
+
+## ENUM
+상수 지정을 위한 집합 - 기본값으로 0부터 시작 => 숫자나 문자열 할당 가능
+
+=> 사용 지양 - 새로운 값을 할당할 수 있다 -> 타입 보장 X
+
+=> UNION 타입을 통해 상수 할당 가능.
+
+## Type Inferance 
+타입 추론 -> 타입을 지정하지 않아도 타입을 추론하여 인식
+
+-> 원시값은 명확히 인식하지만 정확하게 인식하지 못할 수도 있다. 
+
+일관성있는 타입 지정 필요
+
+## Type Assertion
+타입 강요 -> `${variable} as ${type}` / `<${type}>${variable}` 을 통해 변수의 타입을 캐스팅할 수 있다.
+
+-> 정말 장담하는 경우가 아니라면 사용 지양
