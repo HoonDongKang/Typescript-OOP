@@ -47,6 +47,13 @@ Ex) 상속받은 부모의 메서드를 사용할 수 있다.
 
 ## OOP Class
 
+### static
+
 1. constructor -> 생성자 = 클래스 내부 매개변수 전달함으로써 인스턴스별 값 전달 가능.
 2. 인스턴스마다 동일한 속성을 설정 시, static 사용 -> this가 아닌 클래스 명으로 접근.
 3. static 으로 메서드 설정 가능 -> new 생성자 접근 X 클래스명.메서드로 생성.
+
+### Encapsulation
+public : 외부 접근 가능
+private : 외부에서 접근 불가
+protected : 외부 접근 불가, 상속한 클래스 내에서는 접근 가능
