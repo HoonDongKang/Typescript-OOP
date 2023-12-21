@@ -44,3 +44,9 @@ Ex) animal makeSound() 클래스 -> dog, cat object 모두 makeSound() 메서드
 다양한 form 으로 생성
 
 Ex) 상속받은 부모의 메서드를 사용할 수 있다. 
+
+## OOP Class
+
+1. constructor -> 생성자 = 클래스 내부 매개변수 전달함으로써 인스턴스별 값 전달 가능.
+2. 인스턴스마다 동일한 속성을 설정 시, static 사용 -> this가 아닌 클래스 명으로 접근.
+3. static 으로 메서드 설정 가능 -> new 생성자 접근 X 클래스명.메서드로 생성.
