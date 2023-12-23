@@ -64,3 +64,10 @@ Setter : 인스턴스 변수 대입 또는 수정
 
 => 클래스 내부 속성에 직접 접근하지 않아, 정보 은닉 가능
 => Set 내부 유효성 검사를 통해 안전한 데이터 대입과 private한 데이터 Get가능
+
+## Abstraction
+클래스 내부 수많은 데이터와 함수를 이해하지 않아도 interface 통해 쉽게 사용 가능케 한다.
+
+interface로 해당 클래스에 사용되야할 메서드 지정 / class 는 implements를 통해 interface 안의 메서드를 보장.
+
+=> 복잡한 클래스 내부 메서드 리스트를 interface로 정리를 하며 추상화 가능.
