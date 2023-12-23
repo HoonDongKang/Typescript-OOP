@@ -71,3 +71,14 @@ Setter : 인스턴스 변수 대입 또는 수정
 interface로 해당 클래스에 사용되야할 메서드 지정 / class 는 implements를 통해 interface 안의 메서드를 보장.
 
 => 복잡한 클래스 내부 메서드 리스트를 interface로 정리를 하며 추상화 가능.
+
+## Inheritance
+extends 를 통해 상속받을 수 있고, super를 통해 부모 클래스의 메서드 사용 가능.
+
+자식 클래스에서 생성자 사용 시, 부모 클래스 super 필요.
+
+## Polymorphism
+하나의 interface나 부모클래스를 상속한 자식 클래스들이 각 기능들을 구현하며
+다양한 기능을 구현할 수 있다.
+
+=> 약속된 API 사용(interface) + 다양한 기능
