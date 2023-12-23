@@ -86,3 +86,7 @@ extends 를 통해 상속받을 수 있고, super를 통해 부모 클래스의 
 ## Composition
 상속의 단점 : 서로간의 관계가 복잡해짐
 각각의 기능들을 클래스로 구현하여 각 다형성의 클래스에서 constructor 로 가져옴
+
+## abstract
+abstract 클래스는 인스턴스 생성 불가
+=> abstract 클래스 내부 메서드 앞에 abstract 사용 시-> 자식 클래스마다 다르게 구현
