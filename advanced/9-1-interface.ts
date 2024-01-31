@@ -1,4 +1,4 @@
 type PositionType = {
   x: number;
-  y: number
+  y: number;
 }
