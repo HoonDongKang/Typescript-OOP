@@ -45,4 +45,3 @@ type Person = {
 }
 
 type Name = Person['name']
-
