@@ -13,7 +13,4 @@
   : T extends Function
   ? 'Function'
   : 'object';
-
-  
-
 }
