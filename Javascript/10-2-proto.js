@@ -16,3 +16,8 @@ const counter = new Counter();
 counter.increase();
 const caller = counter.increase;
 caller()
+
+class Bob {}
+const bob = new Bob();
+bob.run = counter.increase;
+bob.run();
