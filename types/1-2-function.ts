@@ -36,7 +36,7 @@
 
   printMessage(); // default Message
 
-  //Rest parameter
+  //Rest parameter 
   function addNumbers(...numbers: number[]): number{
     return numbers.reduce((a,b)=> a + b);
   }
