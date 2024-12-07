@@ -4,7 +4,6 @@
    * Primitive: numbaer, string, boolean, bigint, symbol, null, undefined
    * Object: function, array, ...
    */
-
   //number
   const num:number = 4;
 
